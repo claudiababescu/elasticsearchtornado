@@ -24,7 +24,7 @@ class PySearchTests(unittest.TestCase):
             'facets': {
                 'description_suggestions':
                     { 'terms':
-                          { 'field':'description.suggestions','regex':'Virgin.*|^job.*', 'size': 10 }
+                          { 'field':'description.suggestions','regex':'Title.*|^job.*', 'size': 10 }
                     }
             }
         }
